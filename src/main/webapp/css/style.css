@@ -1,0 +1,76 @@
+body{
+    color: gray;
+    padding: 0;
+    margin: 0;
+
+  }
+    .Demo{
+        color: goldenrod;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+        font-size: 22px;
+    }
+    .navbar-nav.a{
+        color: aliceblue;
+        
+    }
+    .nav-link{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Gloock', serif;
+
+    }
+    .anii img{
+        width: 500px;
+    }
+    
+.pad{
+    background-image: url('images/back.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+} 
+
+#foodItem {
+  width: 400px;
+  border: 1px solid lightgray;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(255, 246, 246);
+}
+
+img {
+  border-radius: 15px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgb(8, 238, 92);
+  border: rgb(0, 0, 0);
+  border-radius: 6px;
+}
+button a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Rowdies", cursive;
+  color: rgb(17, 15, 15);
+}
