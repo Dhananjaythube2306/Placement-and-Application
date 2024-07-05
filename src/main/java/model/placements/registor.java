@@ -31,7 +31,7 @@ public class registor extends HttpServlet {
 
 try {
 	Class.forName("com.mysql.cj.jdbc.Driver");
- con= DriverManager.getConnection("jdbc:mysql://localhost:3306/placement","root","root");
+ con= DriverManager.getConnection("jdbc:mysql://roundhouse.proxy.rlwy.net:32689/railway","root","YEXGBDWzPxAwfHrphOzbusVoSDynwJws");
 PreparedStatement pst =  con.prepareStatement("insert into registore(username,email,pass) values(?,?,?)");
 	pst.setString(1,uname);
 	pst.setString(2, email);

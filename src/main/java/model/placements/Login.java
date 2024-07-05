@@ -30,7 +30,7 @@ public class Login extends HttpServlet {
 		RequestDispatcher dispatcher =null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con= DriverManager.getConnection("jdbc:mysql://localhost:3306/placement","root","root");
+			con= DriverManager.getConnection("jdbc:mysql://roundhouse.proxy.rlwy.net:32689/railway","root","YEXGBDWzPxAwfHrphOzbusVoSDynwJws");
 			PreparedStatement pst =  con.prepareStatement("select * from registore where username = ? and pass = ?");
 		pst.setString(1, uname);
 		pst.setString(2, pass);

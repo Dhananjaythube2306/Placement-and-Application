@@ -49,7 +49,7 @@ public class Application extends HttpServlet {
 
 try {
 	Class.forName("com.mysql.cj.jdbc.Driver");
- con= DriverManager.getConnection("jdbc:mysql://localhost:3306/placement","root","root");
+ con= DriverManager.getConnection("jdbc:mysql://roundhouse.proxy.rlwy.net:32689/railway","root","YEXGBDWzPxAwfHrphOzbusVoSDynwJws");
 
 PreparedStatement pst =  con.prepareStatement("insert into application(name,lastname,mnumber,email,education) values(?,?,?,?,?)");
 	pst.setString(1,name);

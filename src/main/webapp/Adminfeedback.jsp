@@ -104,7 +104,7 @@ Statement st=null;
 ResultSet rs=null;
 try{
 	Class.forName("com.mysql.jdbc.Driver");
-	conn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/placement","root","root");
+	conn=(Connection) DriverManager.getConnection("jdbc:mysql://roundhouse.proxy.rlwy.net:32689/railway","root","YEXGBDWzPxAwfHrphOzbusVoSDynwJws");
 	st=conn.createStatement();
 	
 	String qry="select * from feedback";

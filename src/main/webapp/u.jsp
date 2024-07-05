@@ -20,7 +20,7 @@
             String weblink = request.getParameter("weblink");
 
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/placement", "root", "root");
+            con = DriverManager.getConnection("jdbc:mysql://roundhouse.proxy.rlwy.net:32689/railway","root","YEXGBDWzPxAwfHrphOzbusVoSDynwJws");
             pst = con.prepareStatement("update company set cname = ?, role = ?, experience = ?, qualification = ?, salary = ?, imglink = ?, weblink = ? where id = ?");
             pst.setString(1, name);
             pst.setString(2, course);

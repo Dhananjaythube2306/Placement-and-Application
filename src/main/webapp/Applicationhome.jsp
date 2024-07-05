@@ -174,7 +174,7 @@ Statement st=null;
 ResultSet rs=null;
 try{
 	Class.forName("com.mysql.cj.jdbc.Driver");
-	 conn = DriverManager.getConnection("jdbc:mysql://localhost/placement","root","root");
+	 conn = DriverManager.getConnection("jdbc:mysql://roundhouse.proxy.rlwy.net:32689/railway","root","YEXGBDWzPxAwfHrphOzbusVoSDynwJws");
 	st=conn.createStatement();
 	
 	String qry="select * from company";

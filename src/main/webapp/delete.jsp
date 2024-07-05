@@ -8,7 +8,7 @@
         ResultSet rs;
         
         Class.forName("com.mysql.jdbc.Driver");
-        con = DriverManager.getConnection("jdbc:mysql://localhost/placement","root","root");
+        con = DriverManager.getConnection("jdbc:mysql://roundhouse.proxy.rlwy.net:32689/railway","root","YEXGBDWzPxAwfHrphOzbusVoSDynwJws");
         pst = con.prepareStatement("delete from rce where id = ?");
          pst.setInt(1, id);
         pst.executeUpdate();  
